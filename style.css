@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: slategray;
+    margin-top: 170px;
+}
+
+#wrapper{
+    border: 1px solid whitesmoke;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px whitesmoke;
+}
+
+.block1 h2{
+    color: darkblue;
+}
+
+.block1 span{
+    color: darkblue;
+    transition: 0.3s linear;
+}
+
+.block1 span:hover{
+    -webkit-text-stroke: 1px whitesmoke;
+    -webkit-text-fill-color: transparent;
+}
+
+.block1 input{
+    border-radius: 3px;
+    border: none;
+    transition: 0.4s linear;
+    margin: 0;
+    padding: 0;
+}
+
+#conclusion button{
+    width: 99px;
+    background-color: rgb(196, 211, 225);
+    border: 1px solid whitesmoke;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.block1 input{
+    transition: 1s linear;
+}
+
+.block1 input:active{
+    width: 170px;
+    height: 25px;
+    border: 2px rebeccapurple;
+    color: red;
+}
+
+.block1__input button{
+    background-color: royalblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 0px 10px 0px 0px;
+    margin-left: 10px;
+}
+
+.block1__input button:active{
+    transform: scale(1.1);
+    color: red;
+}
+
+#conclusion{
+    background-color: rgb(196, 211, 225);
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+#black{
+    background-color: black;
+    width: 50px;
+    height: 25px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+#white{
+    background-color: slategray;
+    width: 50px;
+    height: 25px;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
